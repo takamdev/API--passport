@@ -19,7 +19,7 @@ app.use("",(req,res)=>{
 })
 
 connect()
-app.listen(port||process.env.port,()=>{
+app.listen(process.env.port||port,()=>{
     console.log("serveur écoute sur le port:3500"); 
 })
 
