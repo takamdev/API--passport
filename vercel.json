@@ -16,7 +16,7 @@
         "dest": "server.js"
       },
       {
-        "src": "/public/api/identitydocs/:id",
+        "src": "/public/api/identitydocs/{id}",
         "dest": "server.js"
       }
     ]
