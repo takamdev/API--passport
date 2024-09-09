@@ -10,6 +10,14 @@
       {
         "src": "/",
         "dest": "server.js"
+      },
+      {
+        "src": "/public/api/identitydocs",
+        "dest": "server.js"
+      },
+      {
+        "src": "/public/api/identitydocs/:id",
+        "dest": "server.js"
       }
     ]
   }
