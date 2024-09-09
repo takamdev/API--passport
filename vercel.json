@@ -8,15 +8,7 @@
     ],
     "routes": [
       {
-        "src": "/",
-        "dest": "server.js"
-      },
-      {
-        "src": "/public/api/identitydocs",
-        "dest": "server.js"
-      },
-      {
-        "src": "/public/api/identitydocs/{id}",
+        "src": "/(.*)",
         "dest": "server.js"
       }
     ]
